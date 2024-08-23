@@ -42,5 +42,14 @@ int main() {
 
     s2.getStuInfo();
 
+    Student s3;
+    s3.name = "Aman Chaudhary";
+    s3.course = "BSc";
+    s3.age = 19;
+    s3.marks = 95.4;
+    s3.roll_no = 230011;
+
+    s3.getStuInfo();
+
     return 0;
 }
