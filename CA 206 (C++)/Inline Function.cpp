@@ -15,6 +15,6 @@ int main() {
 
     Student obj;
 
-    obj.getInfo();
+    obj.getInfo(); // Calling
     
 }

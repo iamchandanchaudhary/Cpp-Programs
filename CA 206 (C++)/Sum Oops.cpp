@@ -1,14 +1,14 @@
 #include <iostream>
 using namespace std;
 
-class Sum {
+class Math {
     public:
     int a;
     int b;
     int c;
-    int sum, subtraction, multiply;
+    int addition, subtraction, multiply;
 
-    void getInfo() {
+    void getResult() {
         cout << "Enter 1st Value : ";
         cin >> a;
 
@@ -18,24 +18,24 @@ class Sum {
         cout << "Enter 3rd Value : ";
         cin >> c;
 
-        sum = a + b + c;
+        addition = a + b + c;
         subtraction = a - b - c;
         multiply = a * b * c;
 
-        cout << "\nSum : " << sum << endl;
+        cout << "\nAddition : " << addition << endl;
         cout << "Subtraction : " << subtraction << endl;
         cout << "Multiply : " << multiply << "\n" <<  endl;
     }
 };
 
 int main() {
-    cout << "Print Sum (Oops) :- \n" << endl;
+    cout << "Arithematic Operation (Oops) :- \n" << endl;
 
-    Sum s1;
+    Math s1;
     // s1.a;
     // s1.b;
     // s1.c;
 
     // s1.sum = s1.a + s1.b;
-    s1.getInfo();
+    s1.getResult();
 }
