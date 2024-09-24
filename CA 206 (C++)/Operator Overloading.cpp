@@ -19,7 +19,7 @@ class Test {
     } 
 
     void printData() {
-        cout << first << " + " << second << "i" <<endl;
+        cout << "Result : " << first << " + " << second << "i" << endl;
     }
 
     // Operator Overloading Syntax
