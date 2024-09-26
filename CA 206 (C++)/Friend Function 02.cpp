@@ -4,21 +4,24 @@ using namespace std;
 
 class Student {
     private:
-    string name = "Chandan";
-    int age = 18;
+    int a;
+    int b;
 
-    //  void getInfo(Student);
     friend void getInfo(Student s1) {
-        cout << "Name : " << s1.name << endl;
-        cout << "Age : " << s1.age << endl;
+        cout << "Enter 1st Value : ";
+        cin >> s1.a;
+
+        cout << "Enter 2nd Value : ";
+        cin >> s1.b;
+
+        cout << "\nAddition : " << s1.a + s1.b << endl;
     }
 };
 
 int main() {
     cout << "Using Friend Function :- \n" << endl;
 
-
+    
     Student a1;
-    // a1.name = "Chandan";
     getInfo(a1);
 }
