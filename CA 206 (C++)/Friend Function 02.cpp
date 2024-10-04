@@ -24,4 +24,5 @@ int main() {
     
     Student a1;
     getInfo(a1);
+    // a1.getInfo();
 }

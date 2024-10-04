@@ -28,18 +28,18 @@ class Test {
         temp.second = second + c.second;
         return temp;
     }
-
 };
 
 int main() {
-    cout << "Operator Overloading :- \n" << endl;
+    cout << "Operator Overloadingss :- \n" << endl;
 
-    Test aa(21, 10);
-    Test bb(10, 15);
+    Test aa(22, 10);
+    Test bb(44, 20);
 
     Test cc;
 
     cc = aa + bb;
 
     cc.getValue();
+
 }
