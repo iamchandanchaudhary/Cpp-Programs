@@ -36,4 +36,6 @@ int main() {
     Wild w1;
     w1.eat();
     w1.animalEg();
+
+    return 0;
 }
