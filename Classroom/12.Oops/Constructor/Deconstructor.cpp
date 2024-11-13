@@ -32,7 +32,7 @@ class Student {
 };
 
 int main() {
-    cout << "Constructor in Oops :- \n" << endl;
+    cout << "Constructor & Deconstructor in Oops :- \n" << endl;
 
     // 1st Student
     Student s1;

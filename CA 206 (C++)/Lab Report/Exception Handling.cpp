@@ -23,7 +23,7 @@ int main() {
     }
 
     catch(int b) {
-        cout << "\nDivided By : " << b;
+        cout << "\nDivision with " << b << " is not Possible.\n";
     }
 
     return 0;
