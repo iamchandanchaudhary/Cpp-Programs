@@ -5,11 +5,12 @@ int linearSearch(int arr[], int n, int key) {
     
     for(int i = 0; i < n; i++) {
         if(arr[i] == key) {
+            cout << "At Index : ";
             return i;
-        }
-
-        return -1;
+        }  
     }
+    // cout << "Not Present!" << endl;
+    return -1;
 }
 
 int main() {
@@ -21,7 +22,7 @@ int main() {
     int arr[n];
     cout << "Enter Values: ";
     for(int i = 0; i < n; i++) {
-        cin >> arr[n];
+        cin >> arr[i];
     }
 
     int key;
