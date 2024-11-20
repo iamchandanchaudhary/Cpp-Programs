@@ -18,7 +18,7 @@ void bubbleSort(int arr[], int n) {
 }
 
 void printSort(int arr[], int n) {
-    cout << "Sorted Value: ";
+    cout << "\nSorted Value: ";
     for(int i = 0; i < n; i++) {
         cout << arr[i] << " ";
     }
@@ -31,7 +31,11 @@ int main() {
     cout << "Enter Size: ";
     cin >> n;
 
-    int arr[n] = {3, 9, 2, 4, 8};
+    int arr[n];
+    cout << "Enter Values : ";
+    for(int i = 0; i < n; i++) {
+        cin >> arr[i];
+    }
 
     bubbleSort(arr, n);
     printSort(arr, n);
