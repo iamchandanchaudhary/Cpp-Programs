@@ -10,9 +10,8 @@ int main() {
 
     int i = 1;
 
-    // cout << "The Table of " << n << " -" << endl;
     while(i <= 10) {
-        cout << n << "*" << i << " = " << n * i << endl;
+        cout << n << "*" << i << " : " << n * i << endl;
         i++;
     }
 
