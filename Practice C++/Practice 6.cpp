@@ -17,4 +17,5 @@ int main() {
     }
 
     cout << "\nThank You :)" << endl;
+    return 0;
 }
