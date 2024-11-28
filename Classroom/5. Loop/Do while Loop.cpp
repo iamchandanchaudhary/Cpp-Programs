@@ -5,8 +5,8 @@ int main() {
     cout << "Table with Do while Loop:- \n" << endl;
 
     int n = 13;
-    // cout << "Enter Value: ";
-    // cin >> n;
+    cout << "Enter Value: ";
+    cin >> n;
 
     int i = 1;
 
