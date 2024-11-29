@@ -42,4 +42,6 @@ int main() {
     cc = aa + bb;
 
     cc.getValue();
+
+    return 0;
 }

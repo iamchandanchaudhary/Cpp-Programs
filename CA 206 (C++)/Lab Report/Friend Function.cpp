@@ -19,6 +19,7 @@ int main() {
 
 
     Student a1;
-    // a1.name = "Chandan";
     getInfo(a1);
+
+    return 0;
 }

@@ -2,10 +2,10 @@
 using namespace std;
 
 // Class that uses this pointer
-class A {
+class Value {
   public:
     int a;
-    A(int a) {
+    Value(int a) {
 
         // Assigning a of this object to
         // function argument a
@@ -21,8 +21,8 @@ class A {
 int main() {
 
     // Checking if this works for the object
-    A o(10);
-    o.display();
+    Value obj(10);
+    obj.display();
 
     return 0;
 }

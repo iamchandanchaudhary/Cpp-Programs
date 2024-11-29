@@ -6,7 +6,8 @@ class Test {
     int a;
     int b;
 
-    static int x;
+    // int x = 0;
+    static int x; // initialised with 0
 
     void setInfo(int a, int b) {
         this->a = a;
