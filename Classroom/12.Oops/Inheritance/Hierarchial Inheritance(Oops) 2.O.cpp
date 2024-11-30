@@ -17,7 +17,6 @@ class Shape {
     void getInfo() {
         cout << "Name : " << name << endl;
         cout << "Colour : " << colour << endl;
-        // cout << "Area : " << area << endl;
     }
 };
 
@@ -63,21 +62,21 @@ class Circle : public Shape {
 int main() {
     cout << "Hierarchial Inheritance :- \n" << endl;
 
+    // Rectangle Property
     Rectangle r1;
     r1.name = "Rectangle 1";
     r1.colour = "Red";
     r1.length = 12;
     r1.width = 5;
-    // r1.area = 60;
 
     r1.getInfo();
     r1.rectInfo();
 
+    // Circle Property
     Circle c1;
     c1.name = "Circle 1";
     c1.colour = "Blue";
     c1.radius = 7;
-    // c1.area = 153;
 
     c1.getInfo();
     c1.circleInfo();

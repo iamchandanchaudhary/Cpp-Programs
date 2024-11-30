@@ -8,10 +8,6 @@ using namespace std;
             string clgName;
             string location;
 
-        // Constructor
-        College() {
-            
-        }
     };
 
     // Inherite the property of Another Class
@@ -19,11 +15,6 @@ using namespace std;
         public:
             string course;
             string block;
-
-        // Constructor
-        Department() {
-            
-        }
     };
 
     // Mult-Level Inheritance
@@ -33,11 +24,6 @@ using namespace std;
         int age;
         string gender;
         int rollno;
-
-        // Constructor
-        Student() {
-
-        }
 
         void getInfo() {
             cout << "College Name : " << clgName << endl;
