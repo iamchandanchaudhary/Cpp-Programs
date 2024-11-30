@@ -1,4 +1,4 @@
-#include <iostream> 
+#include <iostream>
 using namespace std;
 
 int main() {
@@ -15,15 +15,14 @@ int main() {
     try {
         if(b != 0) {
             value = a / b;
-            cout << "\nDivision Value : " << value << endl;
+            cout << "Division : " << value << endl;
         }
         else {
             throw(b);
         }
-    }
-
+    } 
     catch(float b) {
-        cout << "\nDivision with " << b << " is not Possible.\n";
+        cout << "Division with 0 is not Possible!" << endl;
     }
 
     return 0;
