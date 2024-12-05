@@ -4,9 +4,11 @@ using namespace std;
 int main() {
     cout << "Loop :- \n" << endl;
 
-    int n = 5;
+    int size;
+    cout << "Enter Size : ";
+    cin >> size;
 
-    for(int i = 0; i < n; i++) {
+    for(int i = 1; i <= size; i++) {
         cout << i << ". Chandan Chaudhary" << endl;
 
     }
